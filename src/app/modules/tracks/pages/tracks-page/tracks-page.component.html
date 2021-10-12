@@ -1,1 +1,14 @@
-<p>tracks-page works!</p>
+<div class="tracks-page">
+    <!--TOP-->
+    <app-section-generic
+        [title]="'¡Los mejores temas del mes!'"
+        [mode]="'small'"
+        [dataTracks]="mockTracksList"
+    ></app-section-generic>
+    <!--MID-->
+    <app-section-generic
+        [title]="'Toda la música'"
+        [mode]="'big'"
+        [dataTracks]="mockTracksList"
+    ></app-section-generic>
+</div>

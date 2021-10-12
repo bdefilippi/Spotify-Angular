@@ -33,12 +33,12 @@
         },
         {
             "_id": 3,
-            "name": "Calypso (Original Mix)",
-            "album": "Round Table Knights",
-            "cover": "https://cdns-images.dzcdn.net/images/cover/1db3f8f185e68f26feaf0b9d72ff1645/350x350.jpg",
+            "name": "Endlessly She Said",
+            "album": "Decemberunderground",
+            "cover": "https://img.discogs.com/fv4a024pRJ267AAljksinYHNUn4=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-702635-1189640493.jpeg.jpg",
             "artist": {
-                "name": "Round Table Knights",
-                "nickname": "Round Table Knights",
+                "name": "A Fire Inside",
+                "nickname": "AFI",
                 "nationality": "US"
             },
             "duration": {
@@ -49,13 +49,13 @@
         },
         {
             "_id": 4,
-            "name": "Bad Habits",
-            "album": "Ed Sheeran",
-            "cover": "https://www.lahiguera.net/musicalia/artistas/ed_sheeran/disco/11372/tema/25301/ed_sheeran_bad_habits-portada.jpg",
+            "name": "Intentions",
+            "album": "Big Boi",
+            "cover": "https://fangzmedia.com/wp-content/uploads/2019/09/intentions.jpg",
             "artist": {
-                "name": "Ed Sheeran",
-                "nickname": "Ed Sheeran",
-                "nationality": "UK"
+                "name": "Big Boi, Sleepy Brown, CeeLo Green",
+                "nickname": "Big Boi, Sleepy Brown, CeeLo Green",
+                "nationality": "US"
             },
             "duration": {
                 "start": 0,
@@ -65,13 +65,13 @@
         },
         {
             "_id": 5,
-            "name": "BEBE (Official Video)",
-            "album": "Giolì & Assia",
-            "cover": "https://i.scdn.co/image/ab67616d0000b27345ca41b0d2352242c7c9d4bc",
+            "name": "Dark Fantasy",
+            "album": "My Beautiful Dark Twisted Fantasy",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/61MoJyecIHL._SL1200_.jpg",
             "artist": {
-                "name": "Giolì & Assia",
-                "nickname": "Giolì & Assia",
-                "nationality": "IT"
+                "name": "Kanye West",
+                "nickname": "Kanye",
+                "nationality": "US"
             },
             "duration": {
                 "start": 0,
@@ -113,13 +113,13 @@
         },
         {
             "_id": 8,
-            "name": "Bésame💋",
-            "album": "Valentino Ft MTZ Manuel Turizo (Video Oficial)",
-            "cover": "https://i1.sndcdn.com/artworks-000247627460-1hqnjr-t500x500.jpg",
+            "name": "Knee Socks",
+            "album": "AM",
+            "cover": "https://img.discogs.com/dCcoVMQ2IUgS_2eAnu9cENT5Hdw=/fit-in/600x598/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4883062-1474755308-2810.jpeg.jpg",
             "artist": {
-                "name": "Valentino",
-                "nickname": "Valentino",
-                "nationality": "CO"
+                "name": "Arctic Monkeys",
+                "nickname": "Arctic Monkeys",
+                "nationality": "UK"
             },
             "duration": {
                 "start": 0,
