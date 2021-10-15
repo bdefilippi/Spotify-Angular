@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { TrackModel } from '@core/models/tracks.model';
 import { observable, Observable, of } from 'rxjs';
-import { map, mergeMap, tap } from 'rxjs/operators';
+import { map, mergeMap, tap, catchError } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
@@ -35,6 +35,11 @@ export class TrackService {
         return this.httpClient.get(`${this.URL}/tracks`).pipe(
             map(({ data }: any) => {
                 return data;
+            }),
+            catchError((err) => {
+                const { status, statusText } = err;
+                console.log('Error ', [status, statusText]);
+                return of([]);
             })
         );
     }
@@ -45,7 +50,12 @@ export class TrackService {
      */
     getAllRandom$(): Observable<any> {
         return this.httpClient.get(`${this.URL}/tracks`).pipe(
-            mergeMap(({ data }: any) => this.skipRandom(data))
+            mergeMap(({ data }: any) => this.skipRandom(data)),
+            catchError((err) => {
+                const { status, statusText } = err;
+                console.log('Error ', [status, statusText]);
+                return of([]);
+            })
             //tap((data) => console.log(data))
         );
     }
