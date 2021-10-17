@@ -1,0 +1,10 @@
+{
+    "userFail":{
+        "email": "asd123",
+        "password":"1"
+    },
+    "userOk":{
+        "email": "user@mail.com",
+        "password":"12345678"
+    }
+}

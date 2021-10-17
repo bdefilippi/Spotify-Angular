@@ -15,6 +15,21 @@ export class SearchService {
     searchTracks$(term: string): Observable<any> {
         return this.http
             .get(`${this.URL}/tracks?src=${term}`)
-            .pipe(map((dataRaw: any) => dataRaw.data));
+            .pipe(
+                map((dataRaw: any) =>
+                    dataRaw.data.filter(
+                        (track: any) =>
+                            track.name
+                                .toLowerCase()
+                                .includes(term.toLowerCase()) ||
+                            track.album
+                                .toLowerCase()
+                                .includes(term.toLowerCase()) ||
+                            track.artist.name
+                                .toLowerCase()
+                                .includes(term.toLowerCase())
+                    )
+                )
+            );
     }
 }
