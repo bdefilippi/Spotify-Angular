@@ -2,22 +2,23 @@
 
 This project was created with the intention of showcasing my skills using Angular. It's a mock of spotify's website, with most of its main functions working.
 
-##Instructions
+## Instructions
 
-1. The API needs to be running
-```
-https://github.com/bdefilippi/spotify-a-api
-```
-2. Click the following link 
-```
-https://bdefilippi.github.io/spotify-a/
-```
-3. Credentials
-```
-User: test@test.com
-Pass: 12345678
-```
+### Prerequisites
+**Make sure the API is running**
+* https://github.com/bdefilippi/spotify-a-api
 
+### Log in
 
+Click the following link to open the site  
+* https://bdefilippi.github.io/spotify-a/  
 
-
+_Credentials_
+* Username
+```
+test@test.com
+```
+* Password
+```
+12345678
+```
